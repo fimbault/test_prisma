@@ -28,7 +28,7 @@ app.post(`/post`, async (req, res) => {
   res.send(result);
 });
 
-app.patch("/title/update/:id", async (req, res) => {
+app.patch("/post/title/:id", async (req, res) => {
   const { id } = req.params;
   const { newtitle } = req.body;
   const post = await prisma.post.update({
