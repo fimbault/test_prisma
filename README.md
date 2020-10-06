@@ -34,7 +34,8 @@ Example of POST request :
 
 `http POST localhost:3000/post title=newtitle content=newcontent authorEmail=alice@prisma.io`
 
-Example of PATCH request (to update title) : 
+Example of PATCH request (to update title) :
+ 
 `http PATCH localhost:3000/title/update/1 newtitle=mynewtitle`
 
 ## view in prisma studio
